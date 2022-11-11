@@ -1,0 +1,335 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: rgb(230, 236, 241);
+    box-shadow: 0px 0px 2px 0px;
+}
+.navleft{
+    display: flex;
+    margin: 30px;
+}
+.menuimg i{
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgb(99, 104, 108);
+    align-items: center;
+    margin-top: 0px;
+ 
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+.menuimg i:hover{
+    background-color: rgb(172, 187, 189);
+    color: rgb(232, 237, 241);
+}
+.tubeimg{
+    display: flex;
+   
+}
+.tubeimg i{
+    font-size: 35px;
+    color: red;
+}
+.tubeimg h3{
+    font-size: 30px;
+    font-family: serif;
+
+}
+.navmiddle{
+    margin-left:120px;
+}
+.srcbar{
+    border: 2px solid;
+    padding: 3px;
+    width: 350px;
+    border-radius: 50px;
+    margin-left: 150px;
+
+}
+.srcbar input{
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    padding-left: 15px;
+}
+.srcbar i{
+    font-size: 20px;
+    margin-left: 55px;
+    background-color: transparent;
+    align-items: center;
+    padding-top: 3px;
+}
+.srcbar button:hover{
+    color: rgb(197, 168, 24);
+}
+.srcbar button{
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    padding-right: 10px;
+}
+.navright{
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+}
+.navright i:hover{
+    color: rgb(109, 116, 122);
+}
+.navright img:hover{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    direction: left;
+}
+.bel i{
+    margin:15px;
+    font-size: 25px;
+    color: rgb(32, 34, 35);
+}
+.acnt img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.navright img{
+    width: 30px;
+    height: 30px;
+}
+.menudata{
+    width: 220px;
+    height: 500px;
+    padding-top: 20px;
+    display: block;
+    list-style: none;
+    background-color:  rgb(230, 236, 241);
+    text-align: center;
+}
+.menudata a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(71, 75, 79);
+    font-size: 17px;
+    text-align: center;
+    margin: 20px;
+    padding-left: 7px;
+}
+.menudata hr{
+    width: 200px;
+    padding: px;
+    border-radius: 50px;
+    background-color: rgb(133, 137, 142);
+    margin-left:10px;
+}
+.data1 a{
+   display: flex;
+}
+.menudata i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.data1 a:hover{
+    background-color:rgb(159, 171, 181);
+    color: rgb(220, 229, 236);
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+}
+.videos{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    
+}
+.videos ul{
+display: flex;
+list-style: none;
+margin: 10px;
+}
+.videos button{
+    margin: 10px;
+    padding: 8px 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px;
+    border: none;
+    color: rgb(53, 62, 71);
+    font-weight: bold;
+    background-color: tran;
+}
+.videos button:hover{
+    background-color:rgb(159, 171, 181);
+    color: rgb(227, 235, 241);
+    border-radius: 50px;
+}
+.listbar img{
+    width: 95%;
+    height: 220px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+.widthsimg{
+    padding-left:30px;
+    width: 100%;
+    padding-right:0px;
+}
+.widthsimg img{
+    margin-right: 0px;
+}
+
+.vid{
+    padding: 5px;
+    padding-top:30px;
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    
+}
+.vdata{
+    display:inline-flex;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 246px;
+    height: 200px;
+    padding: 10px;
+    margin-left:20px ;
+}
+.vid img{
+    width: 240px;
+    height: 120px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.igh{
+    display: flex;
+    margin: 5px;
+}
+.igh img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 5px;
+    border: none;
+    margin-left: 5px;
+}
+.kgh a{
+    text-decoration: none;
+}
+
+.vid{
+    padding: 5px;
+    padding-top:30px;
+  height: 230px;
+   width: 950px;
+   display: flex;
+
+}
+
+.vdata{
+    display:block;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 246px;
+    height: 200px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left:45px ;
+
+
+}
+.vdata1{
+    display:inline-block;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 246px;
+    height: 200px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left:20px ;
+    margin: 0px;
+}
+.vid2{
+    padding: 5px;
+    padding-top:30px;
+  display: flex;
+   width: 950px;
+    display: inline-block;
+  
+}
+.napic img{
+    border: none;
+    transition: 0.5s;
+}
+.napic img:hover{
+    width: 246px;
+    height: 150px;
+    transform: translateY(15px 10px);
+}
+.overla{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity:1 ;
+    border-radius: 5px;
+    background:linear-gradient (rgba(0,0,0,0.5),rgba(58, 119, 190, 0.5)) ;
+}
+.overlay:hover{
+    opacity:1 ;
+}
+.fontasum{
+width: 50px;
+height: 50px;
+margin-left: 15px;
+
+margin-top: 80px;
+border: none;
+}
+.fontasum i{
+    font-size: 30px;
+    color: rgb(144, 154, 164);
+}
+.fontasum i:hover{
+    color: rgb(75, 78, 93);
+    margin-left: 10px;
+
+}
+
+/*...........2nd line------*/
+.vid1{
+    padding: 5px;
+    padding-top:30px;
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    border: 2px solid;
+    display: flex;
+    
+}
+.vdata:hover{
+    background-color: rgb(185, 198, 210);
+}
